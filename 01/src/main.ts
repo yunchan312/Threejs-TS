@@ -9,7 +9,6 @@ class App {
   private cube?: THREE.Mesh;
 
   constructor() {
-    console.log("Hell three.js");
     this.renderer = new THREE.WebGLRenderer({ antialias: true });
     this.renderer.setPixelRatio(Math.min(2, window.devicePixelRatio));
 
